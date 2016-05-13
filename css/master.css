@@ -1,0 +1,81 @@
+body {
+  background: #013144;
+  font-family: Tahoma, Arial, Sans-Serif;
+}
+
+.block-tester {
+  background: #025576;
+  padding: 2em;
+  color: white;
+  margin: 3em auto;
+}
+@media (min-width: 800px) {
+  .block-tester {
+    width: 720px;
+  }
+}
+.block-tester .title {
+  font-size: 2em;
+}
+.block-tester .list {
+  padding: 0;
+}
+.block-tester .list > li {
+  display: block;
+}
+.block-tester .list > li a {
+  display: block;
+  padding: 1em;
+  margin: 0 0 .2em;
+  color: white;
+  background: #CE6FB3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+.block-tester .list > li a:hover {
+  background: #c85ca9;
+}
+.block-tester .list > li:nth-child(1) a {
+  background: #c960ab;
+}
+.block-tester .list > li:nth-child(1) a:hover {
+  background: #c658a7;
+}
+.block-tester .list > li:nth-child(2) a {
+  background: #c451a3;
+}
+.block-tester .list > li:nth-child(2) a:hover {
+  background: #be419b;
+}
+.block-tester .list > li:nth-child(3) a {
+  background: #be419b;
+}
+.block-tester .list > li:nth-child(3) a:hover {
+  background: #a83989;
+}
+.block-tester .list > li:nth-child(4) a {
+  background: #b03c8f;
+}
+.block-tester .list > li:nth-child(4) a:hover {
+  background: #913176;
+}
+.block-tester .list > li:nth-child(5) a {
+  background: #a03782;
+}
+.block-tester .list > li:nth-child(5) a:hover {
+  background: #7a2a63;
+}
+.block-tester .list > li:nth-child(6) a {
+  background: #913176;
+}
+.block-tester .list > li:nth-child(6) a:hover {
+  background: #642251;
+}
+
+.block-tester .list > li, .block-tester {
+  border: 3px solid #FFF;
+}
+
+/*# sourceMappingURL=master.css.map */
